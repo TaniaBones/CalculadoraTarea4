@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- este menú es el contenido en el action bar-->
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- el siguiente elemento tiene un icono contenido en @drawable obtenido
+    de los recursos de android y nos ayudará al cierre de la aplicación. Queremos
+    que esté a la vista y por ello le decimos que se muestre si hay espacio (ifRoom)-->
+    <item android:id="@+id/iconoCierre"
+        android:icon="@drawable/ic_baseline_close_24"
+        android:title="@string/close"
+        app:showAsAction="ifRoom" />
+
+    <!-- no queremos que los siguientes elementos se muestren, por eso se lo decimos-->
+    <item
+        android:id="@+id/colorTexto"
+        android:title="@string/colorTexto"
+        app:showAsAction="never">
+        <!--dentro de este elemento queremos que se desplieguen más, por eso hay que
+        añadirle un submenú, al cual le añadiremos 3 elementos-->
+        <menu>
+
+            <item android:id="@+id/textoNegro"
+                android:title="@string/colorTextoNegro"/>
+            <item android:id="@+id/textoAzul"
+                android:title="@string/colorTextoAzul"/>
+            <item android:id="@+id/textoRojo"
+                android:title="@string/colorTextoRojo"/>
+
+        </menu>
+    </item>
+    <!-- el siguiente elemento es que, al pulsarlo, se generará un cuadro de diálogo-->
+    <item
+        android:id="@+id/colorFondo"
+        android:title="@string/colorFondo"
+        app:showAsAction="never">
+    </item>
+</menu>

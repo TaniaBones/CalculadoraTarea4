@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="tecla0">0</string>
+    <string name="tecla1">1</string>
+    <string name="tecla2">2</string>
+    <string name="tecla3">3</string>
+    <string name="tecla4">4</string>
+    <string name="tecla5">5</string>
+    <string name="tecla6">6</string>
+    <string name="tecla7">7</string>
+    <string name="tecla8">8</string>
+    <string name="tecla9">9</string>
+    <string name="teclaIgual">=</string>
+    <string name="teclaSuma">+</string>
+    <string name="teclaResta">-</string>
+    <string name="teclaProd">x</string>
+    <string name="teclaDiv">/</string>
+    <string name="teclaC">C</string>
+    <string name="teclaComa">.</string>
+    <string name="colorFondo">Color Fondo</string>
+    <string name="colorTexto">Color Texto</string>
+    <string name="close">closeIcon</string>
+    <string name="colorTextoNegro">Negro</string>
+    <string name="colorTextoAzul">Azul</string>
+    <string name="colorTextoRojo">Rojo</string>
+    <!--el siguiente string array es el se utilizará para el dialogó emergente de cambiar el color de fondo-->
+    <string-array name="fondos">
+        <item>Blanco</item>
+        <item>Gris</item>
+    </string-array>
+</resources>

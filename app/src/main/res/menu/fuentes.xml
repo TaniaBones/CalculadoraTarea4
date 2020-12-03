@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- creamos este menú para poder hacer un menú contextual posteriormente-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Grande" android:title="Grande" />
+    <item android:id="@+id/Normal" android:title="Normal" />
+    <item android:id="@+id/Pequeño" android:title="Pequeño" />
+</menu>
